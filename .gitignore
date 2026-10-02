@@ -1,0 +1,13 @@
+# Nextflow runtime files
+.nextflow/
+.nextflow.log*
+work/
+
+# Results and large data
+results/
+data/reference/*.fa
+data/reference/*.fasta
+
+# OS/editor junk
+.DS_Store
+*.swp
