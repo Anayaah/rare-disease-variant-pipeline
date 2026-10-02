@@ -3,7 +3,7 @@
 A Nextflow pipeline for detecting and prioritising pathogenic variants in
 mitochondrial disease, built around the MELAS syndrome variant m.3243A>G.
 
-**Status:** 🚧 In progress (Sept-Oct 2026)
+**Status:** In progress 
 
 ## Goal
 Most beginner variant-calling pipelines stop at frequency + consequence
