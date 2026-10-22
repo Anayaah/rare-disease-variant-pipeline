@@ -1,0 +1,6 @@
+##fileformat=VCFv4.2
+##contig=<ID=chrM,length=16569>
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO
+chrM	3243	.	A	G	99	PASS	.
+chrM	8344	.	A	G	85	PASS	.
+chrM	11778	.	G	A	90	PASS	.
