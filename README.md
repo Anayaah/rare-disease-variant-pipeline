@@ -26,7 +26,7 @@ Nextflow · Docker · Python · VEP · gnomAD · MITOMAP · HPO · PanelApp
 
 ## Progress log
 - [x] Dev environment set up (WSL2, Docker, Java, Nextflow)
-- [ ] Week 1: pipeline skeleton (QC -> stats)
+- [x] Week 1: pipeline skeleton (QC -> stats)
 - [ ] Week 2: VEP annotation module, containerised
 - [ ] Week 3: filtering + heteroplasmy simulation
 - [ ] Week 4: HPO prioritisation, nf-test suite, final report
