@@ -1,4 +1,5 @@
 process BASIC_STATS {
+    container 'ubuntu:24.04'
     publishDir "results/stats", mode: 'copy'
 
     input:
