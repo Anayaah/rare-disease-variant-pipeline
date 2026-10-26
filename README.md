@@ -34,6 +34,6 @@ Nextflow · Docker · Python · VEP · gnomAD · MITOMAP · HPO · PanelApp
 ## Design decisions
 - **Baseline sample:** synthetic. A small test VCF now, later a set built from real gnomAD mitochondrial variants. It is clearly labelled as synthetic, because no public patient MELAS file is available.
 - **Truth variant:** m.3243A>G (rCRS / NC_012920.1 coordinates), injected at 10, 30, 50 and 70% allele fraction.
-- **Heteroplasmy simulation:** done at VCF level, with simulated sequencing depth so that detection is probabilistic. This tests the pipeline's filters, not a variant caller.
+- **Heteroplasmy simulation:** done at VCF level. Sequencing-depth simulation (so that detection is probabilistic) is planned for Week 3. This tests the pipeline's filters, not a variant caller.
 - **Stretch goal:** repeat the titration at read level using real HG002 chrM reads.
 - **Real resources:** gnomAD, ClinVar, MITOMAP, VEP, HPO and PanelApp are used as real annotation sources.
