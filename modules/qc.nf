@@ -1,4 +1,5 @@
 process QC_CHECK {
+    container 'ubuntu:24.04'
     publishDir "results/qc", mode: 'copy'
 
     input:
